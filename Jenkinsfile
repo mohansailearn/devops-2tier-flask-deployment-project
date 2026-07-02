@@ -85,12 +85,12 @@ pipeline {
     post {
 
         success {
-            echo '✅ Flask + Nginx deployment successful!'
+            echo 'Flask + Nginx deployment successful!'
         }
 
         failure {
             echo '''
-            ❌ Deployment failed.
+             Deployment failed.
             Checking container logs...
             '''
             sh '''
